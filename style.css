@@ -43,6 +43,7 @@ header {
     gap: 80px;
     width: 100%;
     height: auto;
+    margin-bottom: 80px;
 }
 
 .text-logo {
@@ -62,15 +63,15 @@ header {
     margin-bottom: 20px;
 }
 
-.text-logo button {
+button {
     color: white;
     background-color: #3882F6;
     border: none;
     padding: 7px 10px;
     border-radius: 5px;
     width: 100px;
-    margin-bottom: 80px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .logo {
@@ -81,4 +82,89 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.some-information { 
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.some-information h2 { 
+    font-weight: 900;
+    font-size: 36px;
+    margin: 40px; 
+}
+
+.images {
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+
+
+.img-text { width: 150px;}
+
+.img-text div {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid;
+    border-radius: 10px;
+}
+
+.img-text span {
+    font-size: 16px;
+    line-height: 0px;
+}
+
+.some-text {
+    background-color: #e5e7eb;
+    padding: 40px 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+
+.some-text p {
+    font-style: italic;
+    font-weight:100;
+}
+
+.some-text span {
+    margin-left: auto;
+    font-weight:bold;
+}
+
+.action {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3382f6;
+    padding: 50px;
+    border-radius: 10px;
+    color:white;
+    margin-bottom: 80px;
+}
+
+.action button {
+    border: white solid;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
 }
